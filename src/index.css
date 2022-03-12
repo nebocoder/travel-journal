@@ -5,3 +5,41 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  height: 100vh;
+}
+
+@media (min-width: 550px) {
+  .container {
+    max-width: 550px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background: #f55a5a;
+  color: #fff;
+  padding: 16px 0;
+}
+
+.header--logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
+}
+
+.header--text {
+  font-weight: 500;
+  font-size: 14.5px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
