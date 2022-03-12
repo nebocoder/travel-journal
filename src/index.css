@@ -62,6 +62,10 @@ header {
   border-bottom: 1px solid #f5f5f5;
 }
 
+.card:last-of-type {
+  border: none;
+}
+
 .card--image {
   width: 125px;
   height: 168px;
