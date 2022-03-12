@@ -69,7 +69,7 @@ header {
   margin-right: 4px;
 }
 
-.card--country {
+.card--location {
   text-transform: uppercase;
   font-size: 10.24px;
   line-height: 12px;
@@ -87,7 +87,7 @@ header {
   font-weight: 700;
   font-size: 25px;
   line-height: 30px;
-  margin-bottom: 14px;
+  margin: 2px 0 14px;
 }
 
 .card--dates {
@@ -97,7 +97,7 @@ header {
   margin-bottom: 6px;
 }
 
-.card--text {
+.card--description {
   font-size: 10.24px;
   line-height: 150%;
 }
